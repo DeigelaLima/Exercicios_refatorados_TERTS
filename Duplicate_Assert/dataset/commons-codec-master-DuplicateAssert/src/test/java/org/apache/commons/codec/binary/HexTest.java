@@ -468,8 +468,6 @@ public class HexTest {
         assertEquals(expected, new String(actual));
     }
 
-
-
     @Test
     public void testEncodeHexByteArrayHelloWorldUpperCaseHex() {
         final byte[] b = StringUtils.getBytesUtf8("Hello World");
